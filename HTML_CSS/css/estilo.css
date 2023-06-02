@@ -11,6 +11,19 @@ body {
     background-color: yellow;
 }
 
+h2 {
+    font-family: 'Segoe UI';
+    color: aquamarine;
+}
+
+.block {
+    display: block
+}
+
+.inline {
+    display: inline;
+}
+
 .tabela {
     display: table;
 }
@@ -37,4 +50,39 @@ body {
     height: 100px;
     background-color: olivedrab;
     display: none;
+}
+
+/*estilizando formularios*/
+
+fieldset {
+    margin: 1m 0;
+    padding: 1m;
+    border: 1px;
+    background: #f8f8f8;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    width: auto;
+}
+
+teaxtarea {
+    width: 20em;
+    height: 10em;
+}
+
+input.radio, input.checkbox, input.submit {
+    width: auto;
+}
+
+.radio {
+    margin-right: 1em;
 }
